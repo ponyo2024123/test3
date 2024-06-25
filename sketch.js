@@ -13,7 +13,7 @@ function setup() {
   createCanvas(508, 414);
 
   // Generate random points avoiding bright areas
-  generateRandomPoints(8000);
+  generateRandomPoints(6000);
 
   // Calculate Delaunay triangulation and Voronoi diagram
   delaunay = calculateDelaunay(points);

@@ -5,3 +5,7 @@ html, body {
 canvas {
   display: block;
 }
+.p5Canvas {
+    padding: 100px;
+    margin: 0 auto;
+}
